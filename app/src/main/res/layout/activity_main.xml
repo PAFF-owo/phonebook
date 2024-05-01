@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextName"
-        android:hint="Phone Number"
+        android:hint="@string/phone_number"
         android:layout_marginBottom="16dp"/>
 
     <Button
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextPhone"
-        android:text="Add Contact"/>
+        android:text="@string/add_contact"/>
 
     <ListView
         android:id="@+id/listViewContacts"
